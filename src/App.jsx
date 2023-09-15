@@ -1,9 +1,16 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import PageLayout from "./components/layout/PageLayout";
 function App() {
   return (
     <>
-      <div className="flex min-h-screen items-center justify-center bg-slate-600 text-3xl">
-        Hello World
-      </div>
+      <Router>
+        <PageLayout>
+          <Routes>
+            <Route index element={<Home />} />
+          </Routes>
+        </PageLayout>
+      </Router>
     </>
   );
 }
