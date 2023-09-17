@@ -6,7 +6,7 @@ const PageLayout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <main className="container mx-auto flex min-h-screen w-full justify-center items-center">
+      <main className="container mx-auto flex min-h-screen w-full">
         {children}
       </main>
       <Footer />
