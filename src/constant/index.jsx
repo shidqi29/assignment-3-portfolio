@@ -1,7 +1,10 @@
 import {
   FaCss3,
+  FaGamepad,
   FaGitAlt,
   FaGithubSquare,
+  FaHeadphones,
+  FaHiking,
   FaHtml5,
   FaInstagramSquare,
   FaJs,
@@ -72,5 +75,20 @@ export const skills = [
   {
     name: "yarn",
     icon: <FaYarn size={iconSize} />,
+  },
+];
+
+export const interests = [
+  {
+    name: "Playing Games",
+    icon: <FaGamepad size={iconSize} />,
+  },
+  {
+    name: "Listening to Music",
+    icon: <FaHeadphones size={iconSize} />,
+  },
+  {
+    name: "Hiking",
+    icon: <FaHiking size={iconSize} />,
   },
 ];
