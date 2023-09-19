@@ -92,3 +92,31 @@ export const interests = [
     icon: <FaHiking size={iconSize} />,
   },
 ];
+
+export const awards = [
+  {
+    name: "Belajar Dasar Pemrograman Web",
+    company: "Dicoding",
+    link: "https://dicoding.com/certificates/KEXLL0QOWXG2",
+  },
+  {
+    name: "Belajar Dasar Pemrograman JavaScript",
+    company: "Dicoding",
+    link: "https://dicoding.com/certificates/4EXG99GQ1ZRL",
+  },
+  {
+    name: "Belajar Membuat Aplikasi Back-End untuk Pemula",
+    company: "Dicoding",
+    link: "https://dicoding.com/certificates/ERZR01WY2XYV",
+  },
+  {
+    name: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+    company: "Dicoding",
+    link: "https://dicoding.com/certificates/MEPJKR6NJX3V",
+  },
+  {
+    name: "Belajar Dasar-Dasar DevOps",
+    company: "Dicoding",
+    link: "https://dicoding.com/certificates/QLZ92E5R2X5D",
+  },
+];

@@ -4,6 +4,7 @@ import PageLayout from "./components/layout/PageLayout";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Interests from "./pages/Interests";
+import Awards from "./pages/Awards";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/interests" element={<Interests />} />
+            <Route path="/awards" element={<Awards />} />
           </Routes>
         </PageLayout>
       </Router>
