@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Interests from "./pages/Interests";
 import Awards from "./pages/Awards";
+import Experiences from "./pages/Experiences";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route index element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/experiences" element={<Experiences />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/interests" element={<Interests />} />
             <Route path="/awards" element={<Awards />} />

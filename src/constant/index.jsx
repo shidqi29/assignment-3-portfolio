@@ -35,6 +35,17 @@ export const socials = [
   },
 ];
 
+export const experiences = [
+  {
+    job: "Freelance Web Developer",
+    company: "Fastwork",
+    date: "May 2023 - Present",
+    type: "Part-time",
+    description:
+      "As a freelance web developer, I've had the privilege of working on a diverse range of projects, each presenting unique challenges and opportunities for creativity.",
+  },
+];
+
 export const skills = [
   {
     name: "HTML5",
